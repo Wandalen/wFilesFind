@@ -16,7 +16,7 @@
   {
     "url" : "https://github.com/Wandalen/wFilesFind/issues"
   },
-  "dependencies" : { "wTools" : "" },
-  "devDependencies" : { "wTesting" : "", "eslint" : "7.1.0", "wfilesfind" : "file:." },
+  "dependencies" : { "wTools" : "alpha" },
+  "devDependencies" : { "eslint" : "7.1.0", "wfilesfind" : "file:.", "wTesting" : "alpha" },
   "keywords" : [ "wTools" ]
 }
