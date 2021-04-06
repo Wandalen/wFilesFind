@@ -6,8 +6,8 @@ consistency:
     hash: 82e027a1b20a1acc313df11aa62ed955
     size: 1673
   ../.im.will.yml: &ref_1
-    hash: 8889423dedb72f41f81512c583363d3d
-    size: 4679
+    hash: b7a35cc1956b3602ef8dac38b219600c
+    size: 4683
 module:
   wFilesFind.out:
     about:
@@ -138,7 +138,7 @@ module:
         path: '{path::out.*=}/source/Index.s'
       npm.proto.entry:
         path:
-          - ../proto/wtools/Tools.s
+          - ../proto/node_modules/Tools
           - ../proto/node_modules/wfilesfind
       exported.dir.proto.export:
         criterion:
@@ -155,9 +155,9 @@ module:
           - ../proto
           - ../proto/Integration.test.ss
           - ../proto/node_modules
+          - ../proto/node_modules/Tools
           - ../proto/node_modules/wfilesfind
           - ../proto/wtools
-          - ../proto/wtools/Tools.s
           - ../proto/wtools/abase
           - ../proto/wtools/amid
           - ../proto/wtools/atop
@@ -890,7 +890,7 @@ module:
         path: '{path::out.*=}/source/Index.s'
       npm.proto.entry:
         path:
-          - proto/wtools/Tools.s
+          - proto/node_modules/Tools
           - proto/node_modules/wfilesfind
     submodule:
       wTools:
@@ -1438,5 +1438,5 @@ module:
         hash: 82e027a1b20a1acc313df11aa62ed955
         size: 1673
       ../.im.will.yml:
-        hash: 8889423dedb72f41f81512c583363d3d
-        size: 4679
+        hash: b7a35cc1956b3602ef8dac38b219600c
+        size: 4683
